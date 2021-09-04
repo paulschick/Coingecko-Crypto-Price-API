@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  gecko:
+    build: ./gecko
+    container_name: gecko
+    networks:
+      - price_service
+    ports:
+      - '4003:4003'
+    volumes:
+      - ../dockerdata/gecko:/data
+
+networks:
+  price_service:
+volumes:
+  dockerdata:

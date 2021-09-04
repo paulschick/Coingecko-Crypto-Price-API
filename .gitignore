@@ -1,0 +1,7 @@
+__pycache__/
+.idea/
+.env/
+.env
+.venv/
+.venv
+gecko.db
