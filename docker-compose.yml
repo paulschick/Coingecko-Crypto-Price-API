@@ -3,11 +3,11 @@ version: '3.8'
 services:
   gecko:
     build: ./gecko
-    container_name: gecko
+    container_name: price-api
     networks:
       - price_service
     ports:
-      - '4003:4003'
+      - '4004:4004'
     volumes:
       - ../dockerdata/gecko:/data
 

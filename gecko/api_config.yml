@@ -1,0 +1,5 @@
+base_uri: https://api.coingecko.com/api/v3
+coins_list_endpoint: /coins/list
+price_endpoint: /simple/price?ids=
+db_name: gecko.db
+db_table: coins_list
